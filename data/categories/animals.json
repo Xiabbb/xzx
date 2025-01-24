@@ -1,0 +1,10 @@
+{
+  "name": "动物",
+  "words": {
+    "animal": "n. 动物",
+    "bird": "n. 鸟",
+    "cat": "n. 猫",
+    "dog": "n. 狗",
+    "ladybird": "n. 瓢虫"
+  }
+}

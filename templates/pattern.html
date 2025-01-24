@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>句型变变变 - 趣味单词学习</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="container">
+        <div class="game-card">
+            <div class="word-display">
+                <div class="word-bubble pattern-word-bubble">
+                    <div class="pattern-type" id="pattern-type"></div>
+                    <div class="pattern-sentence">
+                        <div class="sentence-container">
+                            <span id="sentence-before"></span>
+                            <span id="sentence-underline"></span>
+                            <span id="sentence-after"></span>
+                            <button id="play-sentence" class="play-sentence-btn" onclick="playSentence()">
+                                <img src="{{ url_for('static', filename='images/speaker.svg') }}" alt="播放">
+                            </button>
+                        </div>
+                        <div class="chinese-translation" id="chinese-translation"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="answer-section">
+                <div class="translate-input">
+                    <input type="text" id="answer-input" 
+                           placeholder="请输入英文句子..." 
+                           class="answer-input">
+                    <button onclick="checkAnswer()" class="submit-btn">
+                        提交答案
+                    </button>
+                </div>
+                <button onclick="showHint()" class="hint-btn">
+                    <img src="{{ url_for('static', filename='images/hint.svg') }}" alt="提示">
+                    需要帮助
+                </button>
+            </div>
+            
+            <div class="hint-text" id="hint-text"></div>
+            <div class="feedback" id="feedback"></div>
+            
+            <button class="next-button" onclick="getNewWord()">
+                <img src="{{ url_for('static', filename='images/next.svg') }}" alt="下一个">
+                下一题
+            </button>
+        </div>
+    </div>
+    
+    <audio id="correct-audio" src="{{ url_for('static', filename='audio/sounds/correct.mp3') }}"></audio>
+    <audio id="wrong-audio" src="{{ url_for('static', filename='audio/sounds/wrong.mp3') }}"></audio>
+    
+    <audio id="sentence-audio"></audio>
+    
+    <script src="{{ url_for('static', filename='js/pattern.js') }}"></script>
+</body>
+</html> 

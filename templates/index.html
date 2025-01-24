@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>趣味单词学习</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    
+    <!-- 添加全局统计面板 -->
+    <div class="global-stats">
+        <div class="stats-section">
+            <h3>单词猜猜猜</h3>
+            <div class="stats-content">
+                <div class="stat-item">
+                    <img src="{{ url_for('static', filename='images/correct.svg') }}" alt="正确">
+                    <span id="guess-correct">0</span>
+                </div>
+                <div class="stat-item">
+                    <img src="{{ url_for('static', filename='images/wrong.svg') }}" alt="错误">
+                    <span id="guess-wrong">0</span>
+                </div>
+                <div class="stat-item">
+                    <img src="{{ url_for('static', filename='images/star.svg') }}" alt="正确率">
+                    <span id="guess-accuracy">0%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="guess-progress"></div>
+                </div>
+                <div class="progress-text">
+                    已完成: <span id="guess-completed">0</span>/<span id="guess-total">0</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-section">
+            <h3>中文翻译</h3>
+            <div class="stats-content">
+                <div class="stat-item">
+                    <img src="{{ url_for('static', filename='images/correct.svg') }}" alt="正确">
+                    <span id="translate-correct">0</span>
+                </div>
+                <div class="stat-item">
+                    <img src="{{ url_for('static', filename='images/wrong.svg') }}" alt="错误">
+                    <span id="translate-wrong">0</span>
+                </div>
+                <div class="stat-item">
+                    <img src="{{ url_for('static', filename='images/star.svg') }}" alt="正确率">
+                    <span id="translate-accuracy">0%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="translate-progress"></div>
+                </div>
+                <div class="progress-text">
+                    已完成: <span id="translate-completed">0</span>/<span id="translate-total">0</span>
+                </div>
+            </div>
+            <button class="reset-btn" onclick="resetAllStats()">
+                <img src="{{ url_for('static', filename='images/reset.svg') }}" alt="重置">
+                重置所有统计
+            </button>
+        </div>
+
+        <div class="stats-section pattern-stats">
+            <h3>句型变变变</h3>
+            <div class="stats-content">
+                <div class="stat-item">
+                    <img src="{{ url_for('static', filename='images/correct.svg') }}" alt="正确">
+                    <span id="pattern-correct">0</span>
+                </div>
+                <div class="stat-item">
+                    <img src="{{ url_for('static', filename='images/wrong.svg') }}" alt="错误">
+                    <span id="pattern-wrong">0</span>
+                </div>
+                <div class="stat-item">
+                    <img src="{{ url_for('static', filename='images/star.svg') }}" alt="正确率">
+                    <span id="pattern-accuracy">0%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="pattern-progress"></div>
+                </div>
+                <div class="progress-text">
+                    已完成: <span id="pattern-completed">0</span>/<span id="pattern-total">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-container">
+        <div class="tab-header">
+            <button class="tab-btn active" data-tab="guess">
+                <img src="{{ url_for('static', filename='images/guess.svg') }}" alt="猜猜猜">
+                单词猜猜猜
+            </button>
+            <button class="tab-btn" data-tab="translate">
+                <img src="{{ url_for('static', filename='images/translate.svg') }}" alt="翻译">
+                中文翻译
+            </button>
+            <button class="tab-btn" data-tab="pattern">
+                <img src="{{ url_for('static', filename='images/pattern.svg') }}" alt="句型">
+                句型变变变
+            </button>
+        </div>
+        <div class="tab-content">
+            <iframe id="game-frame" src="{{ url_for('guess') }}" frameborder="0"></iframe>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/tabs.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/global-stats.js') }}"></script>
+</body>
+</html> 

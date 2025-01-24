@@ -1,0 +1,530 @@
+[
+    {
+        "sentence": "Tom plays football.",
+        "type": "改为一般疑问句",
+        "chinese_translation": "汤姆踢足球吗？",
+        "underline": "plays",
+        "answer": "Does Tom play football?",
+        "hint": "小提示：\n1. 找到动词（plays）\n2. 因为是Tom，所以我们要用Does来提问\n3. 记住一个小技巧：用了Does后，动词要变回原形play\n4. 把Does放在最前面\n5. 最后在句尾加上问号\n就像在问（汤姆踢足球吗？）"
+    },
+    {
+        "sentence": "The students read books in class.",
+        "type": "对划线部分提问",
+        "chinese_translation": "同学们在哪里读书？",
+        "underline": "in class",
+        "answer": "Where do the students read books?",
+        "hint": "小提示：\n1. 因为要问地点，所以用Where（在哪里）\n2. 看主语是the students（多个学生）\n   - 多个同学，就像说（他们）一样\n   - 说（他们）时要用do\n   - 就问（在哪里读书？）\n3. 因为用了do，所以动词read保持原形\n4. 去掉划线的部分(in class)\n5. 加上问号\n就像在问（同学们在哪里读书？）"
+    },
+    {
+        "sentence": "The dog plays with the ball.",
+        "type": "改为否定句",
+        "chinese_translation": "小狗不玩球。",
+        "underline": "plays",
+        "answer": "The dog does not play with the ball.",
+        "hint": "小狗不玩球：\n1. 找到动词：plays\n2. 看主语是the dog（一只狗）\n   - 一只小狗，就像说'它'一样\n   - 要说'不'时，要用does not\n   - 就说'不玩球'\n3. 用了does not后，动词plays要变回原形play\n4. 把does not放在play前面\n就像说：'小狗不玩球'"
+    },
+    {
+        "sentence": "Tom reads books in the library.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "汤姆在哪里读书？",
+        "underline": "in the library",
+        "answer": "Where does Tom read books?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是（在哪里），所以用 Where\n\n2️⃣ 因为主语是 Tom，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   reads → read\n\n4️⃣ 把疑问词和 does 放在句子前面\n   Where does...\n\n5️⃣ 去掉原来表示地点的部分(in the library)\n\n6️⃣ 最后加上问号\n\n完整句子就是：Where does Tom read books?"
+    },
+    {
+        "sentence": "She writes letters every morning.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "她什么时候写信？",
+        "underline": "every morning",
+        "answer": "When does she write letters?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是（什么时候），所以用 When\n\n2️⃣ 因为主语是 she，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   writes → write\n\n4️⃣ 把疑问词和 does 放在句子前面\n   When does...\n\n5️⃣ 去掉原来表示时间的部分(every morning)\n\n6️⃣ 最后加上问号\n\n完整句子就是：When does she write letters?"
+    },
+    {
+        "sentence": "The boy drinks milk with a straw.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这个男孩用吸管喝牛奶吗？",
+        "underline": "with a straw",
+        "answer": "How does the boy drink milk?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是（用什么方式），所以用 How\n\n2️⃣ 因为主语是 the boy，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   drinks → drink\n\n4️⃣ 把疑问词和 does 放在句子前面\n   How does...\n\n5️⃣ 去掉原来表示方式的部分(with a straw)\n\n6️⃣ 最后加上问号\n\n完整句子就是：How does the boy drink milk?"
+    },
+    {
+        "sentence": "Lucy eats an apple.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "露西吃什么？",
+        "underline": "an apple",
+        "answer": "What does Lucy eat?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“什么东西”，所以用 What\n\n2️⃣ 因为主语是 Lucy，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   eats → eat\n\n4️⃣ 把疑问词和 does 放在句子前面\n   What does...\n\n5️⃣ 去掉原来的宾语(an apple)\n\n6️⃣ 最后加上问号\n\n完整句子就是：What does Lucy eat?"
+    },
+    {
+        "sentence": "The teacher helps students.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "谁帮助学生？",
+        "underline": "The teacher",
+        "answer": "Who helps students?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“谁”，所以用 Who\n\n2️⃣ 特别注意：因为 Who 是主语，\n   所以不需要 does，动词也不用变化\n\n3️⃣ 直接用 Who 替换 The teacher\n   The teacher → Who\n\n4️⃣ 保持其他部分不变\n\n5️⃣ 最后加上问号\n\n完整句子就是：Who helps students?"
+    },
+    {
+        "sentence": "He watches TV after dinner.",
+        "type": "否定句转换",
+        "chinese_translation": "他晚餐后看电视吗？",
+        "underline": "watches",
+        "answer": "He does not watch TV after dinner.",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 因为主语是 he，所以要用 does not\n\n2️⃣ 记住：用了 does not 后，动词要变回原形\n   watches → watch\n\n3️⃣ 把 does not 放在动词前面\n\n4️⃣ 其他部分保持不变\n\n完整句子就是：He does not watch TV after dinner."
+    },
+    {
+        "sentence": "They swim in the pool.",
+        "type": "否定句转换",
+        "chinese_translation": "他们不在游泳池里游泳。",
+        "underline": "swim",
+        "answer": "They do not swim in the pool.",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 因为主语是 they，所以要用 do not\n\n2️⃣ 动词 swim 已经是原形，不用变化\n\n3️⃣ 把 do not 放在动词前面\n\n4️⃣ 其他部分保持不变\n\n完整句子就是：They do not swim in the pool."
+    },
+    {
+        "sentence": "The cat sleeps on the sofa.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这只猫在沙发上睡觉吗？",
+        "underline": "on the sofa",
+        "answer": "Where does the cat sleep?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是（在哪里），所以用 Where\n\n2️⃣ 因为主语是 the cat，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   sleeps → sleep\n\n4️⃣ 把疑问词和 does 放在句子前面\n   Where does...\n\n5️⃣ 去掉原来表示地点的部分(on the sofa)\n\n6️⃣ 最后加上问号\n\n完整句子就是：Where does the cat sleep?"
+    },
+    {
+        "sentence": "Mary studies English on Monday.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "玛丽什么时候学英语？",
+        "underline": "on Monday",
+        "answer": "When does Mary study English?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“什么时候”，所以用 When\n\n2️⃣ 因为主语是 Mary，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   studies → study\n\n4️⃣ 把疑问词和 does 放在句子前面\n   When does...\n\n5️⃣ 去掉原来表示时间的部分(on Monday)\n\n6️⃣ 最后加上问号\n\n完整句子就是：When does Mary study English?"
+    },
+    {
+        "sentence": "The dog chases the ball.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这只狗在追球吗？",
+        "underline": "the ball",
+        "answer": "What does the dog chase?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“什么东西”，所以用 What\n\n2️⃣ 因为主语是 the dog，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   chases → chase\n\n4️⃣ 把疑问词和 does 放在句子前面\n   What does...\n\n5️⃣ 去掉原来的宾语(the ball)\n\n6️⃣ 最后加上问号\n\n完整句子就是：What does the dog chase?"
+    },
+    {
+        "sentence": "Peter walks to school.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "彼得去学校吗？",
+        "underline": "Peter",
+        "answer": "Who walks to school?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“谁”，所以用 Who\n\n2️⃣ 特别注意：因为 Who 是主语，\n   所以不需要 does，动词也不用变化\n\n3️⃣ 直接用 Who 替换 Peter\n   Peter → Who\n\n4️⃣ 保持其他部分不变\n\n5️⃣ 最后加上问号\n\n完整句子就是：Who walks to school?"
+    },
+    {
+        "sentence": "The students learn English with a computer.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "学生们用电脑学英语吗？",
+        "underline": "with a computer",
+        "answer": "How do the students learn English?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“用什么方式”，所以用 How\n\n2️⃣ 因为主语是 the students，所以要用 do\n\n3️⃣ 动词 learn 已经是原形，不用变化\n\n4️⃣ 把疑问词和 do 放在句子前面\n   How do...\n\n5️⃣ 去掉原来表示方式的部分(with a computer)\n\n6️⃣ 最后加上问号\n\n完整句子就是：How do the students learn English?"
+    },
+    {
+        "sentence": "She plays piano in the evening.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "她什么时候弹钢琴？",
+        "underline": "in the evening",
+        "answer": "When does she play piano?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“什么时候”，所以用 When\n\n2️⃣ 因为主语是 she，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   plays → play\n\n4️⃣ 把疑问词和 does 放在句子前面\n   When does...\n\n5️⃣ 去掉原来表示时间的部分(in the evening)\n\n6️⃣ 最后加上问号\n\n完整句子就是：When does she play piano?"
+    },
+    {
+        "sentence": "The rabbit eats carrots in the garden.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这只兔子在花园里吃胡萝卜吗？",
+        "underline": "in the garden",
+        "answer": "Where does the rabbit eat carrots?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“在哪里”，所以用 Where\n\n2️⃣ 因为主语是 the rabbit，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   eats → eat\n\n4️⃣ 把疑问词和 does 放在句子前面\n   Where does...\n\n5️⃣ 去掉原来表示地点的部分(in the garden)\n\n6️⃣ 最后加上问号\n\n完整句子就是：Where does the rabbit eat carrots?"
+    },
+    {
+        "sentence": "The bird sings in the tree.",
+        "type": "否定句转换",
+        "chinese_translation": "这只鸟不在树上唱歌。",
+        "underline": "sings",
+        "answer": "The bird does not sing in the tree.",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 因为主语是 the bird，所以要用 does not\n\n2️⃣ 记住：用了 does not 后，动词要变回原形\n   sings → sing\n\n3️⃣ 把 does not 放在动词前面\n\n4️⃣ 其他部分保持不变\n\n完整句子就是：The bird does not sing in the tree."
+    },
+    {
+        "sentence": "We play games in the park.",
+        "type": "否定句转换",
+        "chinese_translation": "我们不在公园里玩游戏。",
+        "underline": "play",
+        "answer": "We do not play games in the park.",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 因为主语是 we，所以要用 do not\n\n2️⃣ 动词 play 已经是原形，不用变化\n\n3️⃣ 把 do not 放在动词前面\n\n4️⃣ 其他部分保持不变\n\n完整句子就是：We do not play games in the park."
+    },
+    {
+        "sentence": "The monkey eats bananas.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这只猴子吃什么？",
+        "underline": "bananas",
+        "answer": "What does the monkey eat?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“什么东西”，所以用 What\n\n2️⃣ 因为主语是 the monkey，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   eats → eat\n\n4️⃣ 把疑问词和 does 放在句子前面\n   What does...\n\n5️⃣ 去掉原来的宾语(bananas)\n\n6️⃣ 最后加上问号\n\n完整句子就是：What does the monkey eat?"
+    },
+    {
+        "sentence": "David rides his bike to school.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "大卫骑自行车去学校吗？",
+        "underline": "to school",
+        "answer": "Where does David ride his bike?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“去哪里”，所以用 Where\n\n2️⃣ 因为主语是 David，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   rides → ride\n\n4️⃣ 把疑问词和 does 放在句子前面\n   Where does...\n\n5️⃣ 去掉原来表示地点的部分(to school)\n\n6️⃣ 最后加上问号\n\n完整句子就是：Where does David ride his bike?"
+    },
+    {
+        "sentence": "The children play soccer on weekends.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "孩子们什么时候在周末踢足球？",
+        "underline": "on weekends",
+        "answer": "When do the children play soccer?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“什么时候”，所以用 When\n\n2️⃣ 因为主语是 the children，所以要用 do\n\n3️⃣ 动词 play 已经是原形，不用变化\n\n4️⃣ 把疑问词和 do 放在句子前面\n   When do...\n\n5️⃣ 去掉原来表示时间的部分(on weekends)\n\n6️⃣ 最后加上问号\n\n完整句子就是：When do the children play soccer?"
+    },
+    {
+        "sentence": "The girl draws pictures with crayons.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这个女孩用蜡笔画画吗？",
+        "underline": "with crayons",
+        "answer": "How does the girl draw pictures?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“用什么方式”，所以用 How\n\n2️⃣ 因为主语是 the girl，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   draws → draw\n\n4️⃣ 把疑问词和 does 放在句子前面\n   How does...\n\n5️⃣ 去掉原来表示方式的部分(with crayons)\n\n6️⃣ 最后加上问号\n\n完整句子就是：How does the girl draw pictures?"
+    },
+    {
+        "sentence": "The boy reads comics at night.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这个男孩晚上看漫画吗？",
+        "underline": "comics",
+        "answer": "What does the boy read at night?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“什么东西”，所以用 What\n\n2️⃣ 因为主语是 the boy，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   reads → read\n\n4️⃣ 把疑问词和 does 放在句子前面\n   What does...\n\n5️⃣ 去掉原来的宾语(comics)\n\n6️⃣ 最后加上问号\n\n完整句子就是：What does the boy read at night?"
+    },
+    {
+        "sentence": "The students write homework with pencils.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "学生们用铅笔写作业吗？",
+        "underline": "with pencils",
+        "answer": "How do the students write homework?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“用什么方式”，所以用 How\n\n2️⃣ 因为主语是 the students，所以要用 do\n\n3️⃣ 动词 write 已经是原形，不用变化\n\n4️⃣ 把疑问词和 do 放在句子前面\n   How do...\n\n5️⃣ 去掉原来表示方式的部分(with pencils)\n\n6️⃣ 最后加上问号\n\n完整句子就是：How do the students write homework?"
+    },
+    {
+        "sentence": "The cat drinks milk in the kitchen.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这只猫在厨房里喝牛奶吗？",
+        "underline": "in the kitchen",
+        "answer": "Where does the cat drink milk?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“在哪里”，所以用 Where\n\n2️⃣ 因为主语是 the cat，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   drinks → drink\n\n4️⃣ 把疑问词和 does 放在句子前面\n   Where does...\n\n5️⃣ 去掉原来表示地点的部分(in the kitchen)\n\n6️⃣ 最后加上问号\n\n完整句子就是：Where does the cat drink milk?"
+    },
+    {
+        "sentence": "Mother cooks dinner in the afternoon.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "妈妈什么时候做晚餐？",
+        "underline": "in the afternoon",
+        "answer": "When does Mother cook dinner?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“什么时候”，所以用 When\n\n2️⃣ 因为主语是 Mother，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   cooks → cook\n\n4️⃣ 把疑问词和 does 放在句子前面\n   When does...\n\n5️⃣ 去掉原来表示时间的部分(in the afternoon)\n\n6️⃣ 最后加上问号\n\n完整句子就是：When does Mother cook dinner?"
+    },
+    {
+        "sentence": "The dog sleeps under the tree.",
+        "type": "否定句转换",
+        "chinese_translation": "这只狗不在树下睡觉。",
+        "underline": "sleeps",
+        "answer": "The dog does not sleep under the tree.",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 因为主语是 the dog，所以要用 does not\n\n2️⃣ 记住：用了 does not 后，动词要变回原形\n   sleeps → sleep\n\n3️⃣ 把 does not 放在动词前面\n\n4️⃣ 其他部分保持不变\n\n完整句子就是：The dog does not sleep under the tree."
+    },
+    {
+        "sentence": "The teacher writes on the blackboard.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "老师在黑板上写字吗？",
+        "underline": "The teacher",
+        "answer": "Who writes on the blackboard?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“谁”，所以用 Who\n\n2️⃣ 特别注意：因为 Who 是主语，\n   所以不需要 does，动词也不用变化\n\n3️⃣ 直接用 Who 替换 The teacher\n   The teacher → Who\n\n4️⃣ 保持其他部分不变\n\n5️⃣ 最后加上问号\n\n完整句子就是：Who writes on the blackboard?"
+    },
+    {
+        "sentence": "They watch movies on Friday.",
+        "type": "否定句转换",
+        "chinese_translation": "他们不在周五看电影。",
+        "underline": "watch",
+        "answer": "They do not watch movies on Friday.",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 因为主语是 they，所以要用 do not\n\n2️⃣ 动词 watch 已经是原形，不用变化\n\n3️⃣ 把 do not 放在动词前面\n\n4️⃣ 其他部分保持不变\n\n完整句子就是：They do not watch movies on Friday."
+    },
+    {
+        "sentence": "The fish swims in the pond.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这条鱼在池塘里游泳吗？",
+        "underline": "in the pond",
+        "answer": "Where does the fish swim?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“在哪里”，所以用 Where\n\n2️⃣ 因为主语是 the fish，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   swims → swim\n\n4️⃣ 把疑问词和 does 放在句子前面\n   Where does...\n\n5️⃣ 去掉原来表示地点的部分(in the pond)\n\n6️⃣ 最后加上问号\n\n完整句子就是：Where does the fish swim?"
+    },
+    {
+        "sentence": "The girl paints pictures with watercolors.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这个女孩用水彩画画吗？",
+        "underline": "with watercolors",
+        "answer": "How does the girl paint pictures?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“用什么方式”，所以用 How\n\n2️⃣ 因为主语是 the girl，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   paints → paint\n\n4️⃣ 把疑问词和 does 放在句子前面\n   How does...\n\n5️⃣ 去掉原来表示方式的部分(with watercolors)\n\n6️⃣ 最后加上问号\n\n完整句子就是：How does the girl paint pictures?"
+    },
+    {
+        "sentence": "The baby sleeps in the afternoon.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这个婴儿在下午睡觉吗？",
+        "underline": "in the afternoon",
+        "answer": "When does the baby sleep?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“什么时候”，所以用 When\n\n2️⃣ 因为主语是 the baby，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   sleeps → sleep\n\n4️⃣ 把疑问词和 does 放在句子前面\n   When does...\n\n5️⃣ 去掉原来表示时间的部分(in the afternoon)\n\n6️⃣ 最后加上问号\n\n完整句子就是：When does the baby sleep?"
+    },
+    {
+        "sentence": "The birds sing in the morning.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这些鸟在早上唱歌吗？",
+        "underline": "in the morning",
+        "answer": "When do the birds sing?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“什么时候”，所以用 When\n\n2️⃣ 因为主语是 the birds，所以要用 do\n\n3️⃣ 动词 sing 已经是原形，不用变化\n\n4️⃣ 把疑问词和 do 放在句子前面\n   When do...\n\n5️⃣ 去掉原来表示时间的部分(in the morning)\n\n6️⃣ 最后加上问号\n\n完整句子就是：When do the birds sing?"
+    },
+    {
+        "sentence": "John eats breakfast in the garden.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "约翰在花园里吃早餐吗？",
+        "underline": "in the garden",
+        "answer": "Where does John eat breakfast?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“在哪里”，所以用 Where\n\n2️⃣ 因为主语是 John，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   eats → eat\n\n4️⃣ 把疑问词和 does 放在句子前面\n   Where does...\n\n5️⃣ 去掉原来表示地点的部分(in the garden)\n\n6️⃣ 最后加上问号\n\n完整句子就是：Where does John eat breakfast?"
+    },
+    {
+        "sentence": "The rabbit jumps with joy.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这只兔子高兴地跳吗？",
+        "underline": "with joy",
+        "answer": "How does the rabbit jump?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“用什么方式”，所以用 How\n\n2️⃣ 因为主语是 the rabbit，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   jumps → jump\n\n4️⃣ 把疑问词和 does 放在句子前面\n   How does...\n\n5️⃣ 去掉原来表示方式的部分(with joy)\n\n6️⃣ 最后加上问号\n\n完整句子就是：How does the rabbit jump?"
+    },
+    {
+        "sentence": "The boy likes chocolate ice cream.",
+        "type": "否定句转换",
+        "chinese_translation": "这个男孩不喜欢巧克力冰淇淋。",
+        "underline": "likes",
+        "answer": "The boy does not like chocolate ice cream.",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 因为主语是 the boy，所以要用 does not\n\n2️⃣ 记住：用了 does not 后，动词要变回原形\n   likes → like\n\n3️⃣ 把 does not 放在动词前面\n\n4️⃣ 其他部分保持不变\n\n完整句子就是：The boy does not like chocolate ice cream."
+    },
+    {
+        "sentence": "The postman delivers letters.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "邮递员送信吗？",
+        "underline": "The postman",
+        "answer": "Who delivers letters?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“谁”，所以用 Who\n\n2️⃣ 特别注意：因为 Who 是主语，\n   所以不需要 does，动词也不用变化\n\n3️⃣ 直接用 Who 替换 The postman\n   The postman → Who\n\n4️⃣ 保持其他部分不变\n\n5️⃣ 最后加上问号\n\n完整句子就是：Who delivers letters?"
+    },
+    {
+        "sentence": "She drinks juice with a straw.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "她用吸管喝果汁吗？",
+        "underline": "with a straw",
+        "answer": "How does she drink juice?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“用什么方式”，所以用 How\n\n2️⃣ 因为主语是 she，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   drinks → drink\n\n4️⃣ 把疑问词和 does 放在句子前面\n   How does...\n\n5️⃣ 去掉原来表示方式的部分(with a straw)\n\n6️⃣ 最后加上问号\n\n完整句子就是：How does she drink juice?"
+    },
+    {
+        "sentence": "The students play basketball in the gym.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "学生们在学校体育馆里打篮球吗？",
+        "underline": "in the gym",
+        "answer": "Where do the students play basketball?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“在哪里”，所以用 Where\n\n2️⃣ 因为主语是 the students，所以要用 do\n\n3️⃣ 动词 play 已经是原形，不用变化\n\n4️⃣ 把疑问词和 do 放在句子前面\n   Where do...\n\n5️⃣ 去掉原来表示地点的部分(in the gym)\n\n6️⃣ 最后加上问号\n\n完整句子就是：Where do the students play basketball?"
+    },
+    {
+        "sentence": "The cat catches mice at night.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这只猫晚上抓老鼠吗？",
+        "underline": "at night",
+        "answer": "When does the cat catch mice?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“什么时候”，所以用 When\n\n2️⃣ 因为主语是 the cat，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   catches → catch\n\n4️⃣ 把疑问词和 does 放在句子前面\n   When does...\n\n5️⃣ 去掉原来表示时间的部分(at night)\n\n6️⃣ 最后加上问号\n\n完整句子就是：When does the cat catch mice?"
+    },
+    {
+        "sentence": "The children eat snacks.",
+        "type": "否定句转换",
+        "chinese_translation": "这些孩子不吃零食。",
+        "underline": "eat",
+        "answer": "The children do not eat snacks.",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 因为主语是 the children，所以要用 do not\n\n2️⃣ 动词 eat 已经是原形，不用变化\n\n3️⃣ 把 do not 放在动词前面\n\n4️⃣ 其他部分保持不变\n\n完整句子就是：The children do not eat snacks."
+    },
+    {
+        "sentence": "The girl reads stories with expression.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这个女孩带着表情读故事吗？",
+        "underline": "with expression",
+        "answer": "How does the girl read stories?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“用什么方式”，所以用 How\n\n2️⃣ 因为主语是 the girl，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   reads → read\n\n4️⃣ 把疑问词和 does 放在句子前面\n   How does...\n\n5️⃣ 去掉原来表示方式的部分(with expression)\n\n6️⃣ 最后加上问号\n\n完整句子就是：How does the girl read stories?"
+    },
+    {
+        "sentence": "The panda eats bamboo in the zoo.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这只熊猫在动物园里吃竹子吗？",
+        "underline": "bamboo",
+        "answer": "What does the panda eat in the zoo?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“什么东西”，所以用 What\n\n2️⃣ 因为主语是 the panda，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   eats → eat\n\n4️⃣ 把疑问词和 does 放在句子前面\n   What does...\n\n5️⃣ 去掉原来的宾语(bamboo)\n\n6️⃣ 最后加上问号\n\n完整句子就是：What does the panda eat in the zoo?"
+    },
+    {
+        "sentence": "The boy rides his bike to the park.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这个男孩骑自行车去公园吗？",
+        "underline": "to the park",
+        "answer": "Where does the boy ride his bike?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“去哪里”，所以用 Where\n\n2️⃣ 因为主语是 the boy，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   rides → ride\n\n4️⃣ 把疑问词和 does 放在句子前面\n   Where does...\n\n5️⃣ 去掉原来表示地点的部分(to the park)\n\n6️⃣ 最后加上问号\n\n完整句子就是：Where does the boy ride his bike?"
+    },
+    {
+        "sentence": "The students study English before lunch.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "学生们什么时候学英语？",
+        "underline": "before lunch",
+        "answer": "When do the students study English?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“什么时候”，所以用 When\n\n2️⃣ 因为主语是 the students，所以要用 do\n\n3️⃣ 动词 study 已经是原形，不用变化\n\n4️⃣ 把疑问词和 do 放在句子前面\n   When do...\n\n5️⃣ 去掉原来表示时间的部分(before lunch)\n\n6️⃣ 最后加上问号\n\n完整句子就是：When do the students study English?"
+    },
+    {
+        "sentence": "The chef cooks with fresh ingredients.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这个厨师用新鲜食材做饭吗？",
+        "underline": "with fresh ingredients",
+        "answer": "How does the chef cook?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“用什么方式”，所以用 How\n\n2️⃣ 因为主语是 the chef，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   cooks → cook\n\n4️⃣ 把疑问词和 does 放在句子前面\n   How does...\n\n5️⃣ 去掉原来表示方式的部分(with fresh ingredients)\n\n6️⃣ 最后加上问号\n\n完整句子就是：How does the chef cook?"
+    },
+    {
+        "sentence": "The doctor helps sick people.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "医生帮助病人吗？",
+        "underline": "The doctor",
+        "answer": "Who helps sick people?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“谁”，所以用 Who\n\n2️⃣ 特别注意：因为 Who 是主语，\n   所以不需要 does，动词也不用变化\n\n3️⃣ 直接用 Who 替换 The doctor\n   The doctor → Who\n\n4️⃣ 保持其他部分不变\n\n5️⃣ 最后加上问号\n\n完整句子就是：Who helps sick people?"
+    },
+    {
+        "sentence": "She walks to school.",
+        "type": "否定句转换",
+        "chinese_translation": "她不去学校吗？",
+        "underline": "walks",
+        "answer": "She does not walk to school.",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 因为主语是 she，所以要用 does not\n\n2️⃣ 记住：用了 does not 后，动词要变回原形\n   walks → walk\n\n3️⃣ 把 does not 放在动词前面\n\n4️⃣ 其他部分保持不变\n\n完整句子就是：She does not walk to school."
+    },
+    {
+        "sentence": "The butterfly flies in the garden.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这只蝴蝶在花园里飞吗？",
+        "underline": "in the garden",
+        "answer": "Where does the butterfly fly?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“在哪里”，所以用 Where\n\n2️⃣ 因为主语是 the butterfly，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   flies → fly\n\n4️⃣ 把疑问词和 does 放在句子前面\n   Where does...\n\n5️⃣ 去掉原来表示地点的部分(in the garden)\n\n6️⃣ 最后加上问号\n\n完整句子就是：Where does the butterfly fly?"
+    },
+    {
+        "sentence": "They work in the office.",
+        "type": "否定句转换",
+        "chinese_translation": "他们不在办公室工作。",
+        "underline": "work",
+        "answer": "They do not work in the office.",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 因为主语是 they，所以要用 do not\n\n2️⃣ 动词 work 已经是原形，不用变化\n\n3️⃣ 把 do not 放在动词前面\n\n4️⃣ 其他部分保持不变\n\n完整句子就是：They do not work in the office."
+    },
+    {
+        "sentence": "The artist paints pictures with oil colors.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这个艺术家用油彩画画吗？",
+        "underline": "with oil colors",
+        "answer": "How does the artist paint pictures?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“用什么方式”，所以用 How\n\n2️⃣ 因为主语是 the artist，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   paints → paint\n\n4️⃣ 把疑问词和 does 放在句子前面\n   How does...\n\n5️⃣ 去掉原来表示方式的部分(with oil colors)\n\n6️⃣ 最后加上问号\n\n完整句子就是：How does the artist paint pictures?"
+    },
+    {
+        "sentence": "The mouse eats cheese at midnight.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这只老鼠在午夜吃奶酪吗？",
+        "underline": "at midnight",
+        "answer": "When does the mouse eat cheese?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“什么时候”，所以用 When\n\n2️⃣ 因为主语是 the mouse，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   eats → eat\n\n4️⃣ 把疑问词和 does 放在句子前面\n   When does...\n\n5️⃣ 去掉原来表示时间的部分(at midnight)\n\n6️⃣ 最后加上问号\n\n完整句子就是：When does the mouse eat cheese?"
+    },
+    {
+        "sentence": "The elephant drinks water with its trunk.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这只大象用鼻子喝水吗？",
+        "underline": "with its trunk",
+        "answer": "How does the elephant drink water?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“用什么方式”，所以用 How\n\n2️⃣ 因为主语是 the elephant，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   drinks → drink\n\n4️⃣ 把疑问词和 does 放在句子前面\n   How does...\n\n5️⃣ 去掉原来表示方式的部分(with its trunk)\n\n6️⃣ 最后加上问号\n\n完整句子就是：How does the elephant drink water?"
+    },
+    {
+        "sentence": "The farmer grows vegetables in the field.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这个农民在田里种蔬菜吗？",
+        "underline": "in the field",
+        "answer": "Where does the farmer grow vegetables?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“在哪里”，所以用 Where\n\n2️⃣ 因为主语是 the farmer，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   grows → grow\n\n4️⃣ 把疑问词和 does 放在句子前面\n   Where does...\n\n5️⃣ 去掉原来表示地点的部分(in the field)\n\n6️⃣ 最后加上问号\n\n完整句子就是：Where does the farmer grow vegetables?"
+    },
+    {
+        "sentence": "The baker makes bread in the morning.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这个面包师什么时候做面包？",
+        "underline": "in the morning",
+        "answer": "When does the baker make bread?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“什么时候”，所以用 When\n\n2️⃣ 因为主语是 the baker，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   makes → make\n\n4️⃣ 把疑问词和 does 放在句子前面\n   When does...\n\n5️⃣ 去掉原来表示时间的部分(in the morning)\n\n6️⃣ 最后加上问号\n\n完整句子就是：When does the baker make bread?"
+    },
+    {
+        "sentence": "The dentist cleans teeth.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这个牙医清洁牙齿吗？",
+        "underline": "The dentist",
+        "answer": "Who cleans teeth?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“谁”，所以用 Who\n\n2️⃣ 特别注意：因为 Who 是主语，\n   所以不需要 does，动词也不用变化\n\n3️⃣ 直接用 Who 替换 The dentist\n   The dentist → Who\n\n4️⃣ 保持其他部分不变\n\n5️⃣ 最后加上问号\n\n完整句子就是：Who cleans teeth?"
+    },
+    {
+        "sentence": "The monkey likes bananas.",
+        "type": "否定句转换",
+        "chinese_translation": "这只猴子不喜欢香蕉。",
+        "underline": "likes",
+        "answer": "The monkey does not like bananas.",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 因为主语是 the monkey，所以要用 does not\n\n2️⃣ 记住：用了 does not 后，动词要变回原形\n   likes → like\n\n3️⃣ 把 does not 放在动词前面\n\n4️⃣ 其他部分保持不变\n\n完整句子就是：The monkey does not like bananas."
+    },
+    {
+        "sentence": "The girl draws pictures with crayons.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这个女孩用蜡笔画画吗？",
+        "underline": "pictures",
+        "answer": "What does the girl draw with crayons?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“什么东西”，所以用 What\n\n2️⃣ 因为主语是 the girl，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   draws → draw\n\n4️⃣ 把疑问词和 does 放在句子前面\n   What does...\n\n5️⃣ 去掉原来的宾语(pictures)\n\n6️⃣ 最后加上问号\n\n完整句子就是：What does the girl draw with crayons?"
+    },
+    {
+        "sentence": "The birds fly south in winter.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这些鸟在冬天向南飞吗？",
+        "underline": "in winter",
+        "answer": "When do the birds fly south?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“什么时候”，所以用 When\n\n2️⃣ 因为主语是 the birds，所以要用 do\n\n3️⃣ 动词 fly 已经是原形，不用变化\n\n4️⃣ 把疑问词和 do 放在句子前面\n   When do...\n\n5️⃣ 去掉原来表示时间的部分(in winter)\n\n6️⃣ 最后加上问号\n\n完整句子就是：When do the birds fly south?"
+    },
+    {
+        "sentence": "The students learn English with computers.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "学生们用电脑学英语吗？",
+        "underline": "with computers",
+        "answer": "How do the students learn English?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“用什么方式”，所以用 How\n\n2️⃣ 因为主语是 the students，所以要用 do\n\n3️⃣ 动词 learn 已经是原形，不用变化\n\n4️⃣ 把疑问词和 do 放在句子前面\n   How do...\n\n5️⃣ 去掉原来表示方式的部分(with computers)\n\n6️⃣ 最后加上问号\n\n完整句子就是：How do the students learn English?"
+    },
+    {
+        "sentence": "The dog sleeps in the kennel.",
+        "type": "否定句转换",
+        "chinese_translation": "这只狗不在狗舍里睡觉。",
+        "underline": "sleeps",
+        "answer": "The dog does not sleep in the kennel.",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 因为主语是 the dog，所以要用 does not\n\n2️⃣ 记住：用了 does not 后，动词要变回原形\n   sleeps → sleep\n\n3️⃣ 把 does not 放在动词前面\n\n4️⃣ 其他部分保持不变\n\n完整句子就是：The dog does not sleep in the kennel."
+    },
+    {
+        "sentence": "The fish swims in the aquarium.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这条鱼在鱼缸里游泳吗？",
+        "underline": "in the aquarium",
+        "answer": "Where does the fish swim?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是“在哪里”，所以用 Where\n\n2️⃣ 因为主语是 the fish，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   swims → swim\n\n4️⃣ 把疑问词和 does 放在句子前面\n   Where does...\n\n5️⃣ 去掉原来表示地点的部分(in the aquarium)\n\n6️⃣ 最后加上问号\n\n完整句子就是：Where does the fish swim?"
+    },
+    {
+        "sentence": "The penguin swims in the ocean.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这只企鹅在海里游泳吗？",
+        "underline": "in the ocean",
+        "answer": "Where does the penguin swim?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是（在哪里），所以用 Where\n\n2️⃣ 因为主语是 the penguin，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   swims → swim\n\n4️⃣ 把疑问词和 does 放在句子前面\n   Where does...\n\n5️⃣ 去掉原来表示地点的部分(in the ocean)\n\n6️⃣ 最后加上问号\n\n完整句子就是：Where does the penguin swim?"
+    },
+    {
+        "sentence": "The teacher writes with chalk.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这个老师用粉笔写字吗？",
+        "underline": "with chalk",
+        "answer": "How does the teacher write?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是（用什么方式），所以用 How\n\n2️⃣ 因为主语是 the teacher，所以要用 does\n\n3️⃣ 记住：用了 does 后，动词要变回原形\n   writes → write\n\n4️⃣ 把疑问词和 does 放在句子前面\n   How does...\n\n5️⃣ 去掉原来表示方式的部分(with chalk)\n\n6️⃣ 最后加上问号\n\n完整句子就是：How does the teacher write?"
+    },
+    {
+        "sentence": "The nurse helps patients.",
+        "type": "疑问句转换 (特殊疑问句)",
+        "chinese_translation": "这个护士帮助病人吗？",
+        "underline": "The nurse",
+        "answer": "Who helps patients?",
+        "hint": "让我们一步一步来转换这个句子：\n\n1️⃣ 我们要问的是（谁），所以用 Who\n\n2️⃣ 特别注意：因为 Who 是主语，\n   所以不需要 does，动词也不用变化\n\n3️⃣ 直接用 Who 替换 The nurse\n   The nurse → Who\n\n4️⃣ 保持其他部分不变\n\n5️⃣ 最后加上问号\n\n完整句子就是：Who helps patients?"
+    }
+] 

@@ -1,0 +1,38 @@
+{
+  "animals": {
+    "name": "动物",
+    "count": 5
+  },
+  "food": {
+    "name": "食物",
+    "count": 1
+  },
+  "colors": {
+    "name": "颜色",
+    "count": 7
+  },
+  "numbers": {
+    "name": "数字",
+    "count": 5
+  },
+  "body": {
+    "name": "身体部位",
+    "count": 5
+  },
+  "school": {
+    "name": "学校生活",
+    "count": 5
+  },
+  "family": {
+    "name": "家庭成员",
+    "count": 7
+  },
+  "nature": {
+    "name": "自然环境",
+    "count": 4
+  },
+  "other": {
+    "name": "其他",
+    "count": 227
+  }
+}

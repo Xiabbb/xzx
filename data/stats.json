@@ -1,0 +1,57 @@
+{
+  "guess": {
+    "correct_words": [
+      "good",
+      "dog",
+      "pen",
+      "how many",
+      "door",
+      "green",
+      "afternoon"
+    ],
+    "wrong_words": [
+      "classroom",
+      "leaf (leaves)",
+      "me",
+      "grandmother",
+      "but",
+      "after",
+      "draw",
+      "Good morning.",
+      "yummy",
+      "read",
+      "hair",
+      "good",
+      "Sure.",
+      "photo",
+      "supermarket",
+      "ball",
+      "doing",
+      "Please come in.",
+      "end",
+      "sing",
+      "how much",
+      "party",
+      "purple",
+      "close",
+      "many",
+      "dog",
+      "guess",
+      "jam",
+      "where",
+      "clean",
+      "How are you?",
+      "get",
+      "two",
+      "beautiful"
+    ]
+  },
+  "translate": {
+    "correct_words": [],
+    "wrong_words": []
+  },
+  "pattern": {
+    "correct_words": [],
+    "wrong_words": []
+  }
+}

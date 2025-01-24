@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>中文翻译 - 趣味单词学习</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="container">
+        <div class="game-card">
+            <div class="word-display">
+                <div class="word-bubble">
+                    <h2 id="question"></h2>
+                    <button id="play-audio" onclick="playWordAudio()" style="display: none;">
+                        <img src="{{ url_for('static', filename='images/speaker.svg') }}" alt="播放" width="32">
+                    </button>
+                </div>
+            </div>
+            
+            <div class="answer-section">
+                <div class="translate-input">
+                    <input type="text" id="answer-input" placeholder="请输入英文单词..." 
+                           class="answer-input">
+                    <button onclick="checkAnswer()" class="submit-btn">
+                        提交答案
+                    </button>
+                </div>
+            </div>
+            
+            <div class="feedback" id="feedback"></div>
+            
+            <button class="next-button" onclick="getNewWord()">
+                <img src="{{ url_for('static', filename='images/next.svg') }}" alt="下一个">
+                下一题
+            </button>
+        </div>
+    </div>
+    
+    <audio id="word-audio"></audio>
+    <audio id="correct-audio" src="{{ url_for('static', filename='audio/sounds/correct.mp3') }}"></audio>
+    <audio id="wrong-audio" src="{{ url_for('static', filename='audio/sounds/wrong.mp3') }}"></audio>
+    
+    <script src="{{ url_for('static', filename='js/translate.js') }}"></script>
+</body>
+</html> 
